@@ -12,6 +12,7 @@ namespace WindowsFormsClient
         /// Главная точка входа для приложения.
         /// </summary>
         [STAThread]
+        [Obsolete]
         static void Main()
         {
             Application.EnableVisualStyles();
